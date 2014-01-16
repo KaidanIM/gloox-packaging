@@ -1,0 +1,51 @@
+Description: Fix FTBFS with gcc-4.3
+Forwarded: not-yet
+Author: Jose Carlos Garcia Sogo <jsogo@debian.org>
+Bug-Debian: http://bugs.debian.org/455182
+Last-Update: 2014-01-16
+
+--- a/src/connectionsocks5proxy.cpp
++++ b/src/connectionsocks5proxy.cpp
+@@ -38,6 +38,8 @@
+ # include <winsock2.h>
+ #endif
+ 
++#include <cstdlib>
++
+ namespace gloox
+ {
+ 
+--- a/src/tests/tag/tag_perf.cpp
++++ b/src/tests/tag/tag_perf.cpp
+@@ -11,6 +11,8 @@
+ 
+ #include <sys/time.h>
+ 
++#include <cstdlib>
++
+ static double divider = 1000000;
+ static int num = 2500;
+ static double t;
+--- a/src/tests/zlib/zlib_perf.cpp
++++ b/src/tests/zlib/zlib_perf.cpp
+@@ -13,6 +13,8 @@
+ #include <sys/time.h>
+ #include <cstdio> // [s]print[f]
+ 
++#include <cstdlib>
++
+ #ifdef HAVE_ZLIB
+ 
+ class ZlibTest : public CompressionDataHandler
+--- a/src/tlsgnutlsbase.cpp
++++ b/src/tlsgnutlsbase.cpp
+@@ -20,6 +20,9 @@
+ #include <stdlib.h>
+ #include <string.h>
+ 
++#include <cstdlib>
++#include <cstring>
++
+ namespace gloox
+ {
+ 

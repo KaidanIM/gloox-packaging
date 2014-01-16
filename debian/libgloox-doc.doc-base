@@ -1,0 +1,10 @@
+Document: libgloox
+Title: libgloox API Manual
+Author: Jakob Schröter <js@camaya.net>
+Abstract: This manual describes different classes and methods available
+ in the gloox library.
+Section: Programming/C++
+
+Format: HTML
+Index: /usr/share/doc/libgloox-doc/html/index.html
+Files: /usr/share/doc/libgloox-doc/html/*  
