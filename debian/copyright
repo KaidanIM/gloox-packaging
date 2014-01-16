@@ -4,17 +4,17 @@ Source: http://camaya.net/gloox/
 
 Files: *
 Copyright: 2004-2013 Jakob Schröter <js@camaya.net>
-License: GPL-2.0+ with OpenSSL exception
+License: GPL-3.0+ with OpenSSL exception
 
 Files: debian/*
 Copyright: 2005-2010 Jose Carlos Garcia Sogo <jsogo@debian.org>
            2014 Vincent Cheng <vcheng@debian.org>
-License: GPL-2.0+ with OpenSSL exception
+License: GPL-3.0+ with OpenSSL exception
 
-License: GPL-2.0+ with OpenSSL exception
+License: GPL-3.0+ with OpenSSL exception
  This program is free software: you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
- the Free Software Foundation, either version 2 of the License, or
+ the Free Software Foundation, either version 3 of the License, or
  (at your option) any later version.
  .
  In addition, as a special exception, the copyright holders give
@@ -35,4 +35,4 @@ License: GPL-2.0+ with OpenSSL exception
  along with this program. If not, see <http://www.gnu.org/licenses/>.
  .
  On Debian systems, the complete text of the GNU General
- Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
+ Public License version 3 can be found in "/usr/share/common-licenses/GPL-3".

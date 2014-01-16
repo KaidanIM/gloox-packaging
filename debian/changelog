@@ -4,6 +4,8 @@ gloox (1.0.9-1) experimental; urgency=medium
   * New upstream release. (Closes: #729074)
     - SRV record lookup enabled. (Closes: #593150)
     - Refresh patch.
+  * Update debian/copyright (GPLv2+ -> GPLv3+).
+  * Modify package name (libgloox8 -> libgloox11) to reflect SONAME bump.
 
  -- Vincent Cheng <vcheng@debian.org>  Thu, 16 Jan 2014 02:08:45 -0800
 
