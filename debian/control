@@ -65,6 +65,7 @@ Description: C++ jabber/xmpp library (debug symbols)
  This package contains symbols for debugging programs using this library.
 
 Package: libgloox-doc
+Priority: extra
 Section: doc
 Architecture: all
 Depends: ${misc:Depends}
