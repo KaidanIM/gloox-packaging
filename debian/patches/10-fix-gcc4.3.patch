@@ -39,9 +39,9 @@ Last-Update: 2014-01-16
  class ZlibTest : public CompressionDataHandler
 --- a/src/tlsgnutlsbase.cpp
 +++ b/src/tlsgnutlsbase.cpp
-@@ -20,6 +20,9 @@
- #include <stdlib.h>
+@@ -21,6 +21,9 @@
  #include <string.h>
+ #include <cstdio>
  
 +#include <cstdlib>
 +#include <cstring>

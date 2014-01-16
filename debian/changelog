@@ -3,6 +3,7 @@ gloox (1.0.9-1) experimental; urgency=medium
   * Upload to experimental.
   * New upstream release. (Closes: #729074)
     - SRV record lookup enabled. (Closes: #593150)
+    - Refresh patch.
 
  -- Vincent Cheng <vcheng@debian.org>  Thu, 16 Jan 2014 02:08:45 -0800
 
