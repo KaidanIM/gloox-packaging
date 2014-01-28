@@ -3,8 +3,8 @@ Section: libs
 Priority: optional
 Maintainer: Vincent Cheng <vcheng@debian.org>
 Build-Depends:
- autotools-dev,
  debhelper (>= 9),
+ dh-autoreconf,
  doxygen,
  graphviz,
  gsfonts,
