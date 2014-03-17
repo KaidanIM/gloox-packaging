@@ -1,3 +1,9 @@
+gloox (1.0.9-3) unstable; urgency=medium
+
+  * Upload to unstable.
+
+ -- Vincent Cheng <vcheng@debian.org>  Sun, 16 Mar 2014 17:34:43 -0700
+
 gloox (1.0.9-2) experimental; urgency=medium
 
   * Run dh-autoreconf instead of autotools-dev. (Closes: #726278, #735987)
