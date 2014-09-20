@@ -1,1 +1,5 @@
 fix_gcc4.9_ftbfs.patch
+0001-disable-compilation-of-the-jinglecontent-test-for-no.patch
+0002-don-t-create-jinglecontent-Makefile.patch
+0010_nogcryptthreadhandler.diff
+0020_rely_on_pkg-config.diff

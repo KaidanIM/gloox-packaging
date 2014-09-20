@@ -1,0 +1,25 @@
+From 3dbe2e3d4d55cb8eb7be58ed56fe76a631d65b97 Mon Sep 17 00:00:00 2001
+From: js <js@bb60cc1b-8fe5-0310-9879-aca5d778a633>
+Date: Fri, 12 Sep 2014 21:30:52 +0000
+Subject: [PATCH 2/2] * don't create jinglecontent/Makefile
+
+git-svn-id: svn://svn.camaya.net/gloox/branches/1.0@4546 bb60cc1b-8fe5-0310-9879-aca5d778a633
+---
+ configure.ac | 1 -
+ 1 file changed, 1 deletion(-)
+
+diff --git a/configure.ac b/configure.ac
+index 185d4f9..dde010a 100644
+--- a/configure.ac
++++ b/configure.ac
+@@ -424,7 +424,6 @@ src/tests/inbandbytestreamibb/Makefile
+ src/tests/inbandbytestream/Makefile
+ src/tests/iq/Makefile
+ src/tests/jid/Makefile
+-src/tests/jinglecontent/Makefile
+ src/tests/jingleiceudp/Makefile
+ src/tests/jinglesession/Makefile
+ src/tests/jinglesessionjingle/Makefile
+-- 
+2.1.0
+
