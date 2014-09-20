@@ -1,7 +1,8 @@
-gloox (1.0.11-1) UNRELEASED; urgency=medium
+gloox (1.0.11-1) unstable; urgency=medium
 
   * Acknowledge NMU. Thanks Andreas! (Closes: #761374)
   * New upstream release.
+    - Drop all patches, applied upstream.
 
  -- Vincent Cheng <vcheng@debian.org>  Sat, 20 Sep 2014 11:16:48 -0700
 
