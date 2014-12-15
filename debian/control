@@ -11,7 +11,7 @@ Build-Depends:
  libgnutls28-dev,
  libidn11-dev,
  zlib1g-dev
-Standards-Version: 3.9.5
+Standards-Version: 3.9.6
 Homepage: http://camaya.net/gloox/
 Vcs-Svn: svn://anonscm.debian.org/collab-maint/deb-maint/gloox/trunk
 Vcs-Browser: http://anonscm.debian.org/viewvc/collab-maint/deb-maint/gloox/trunk
