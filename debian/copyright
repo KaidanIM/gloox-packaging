@@ -3,17 +3,17 @@ Upstream-Name: gloox
 Source: http://camaya.net/gloox/
 
 Files: *
-Copyright: 2004-2013 Jakob Schröter <js@camaya.net>
+Copyright: 2004-2015 Jakob Schröter <js@camaya.net>
 License: GPL-3.0+ with OpenSSL exception
 
 Files: src/md5.*
 Copyright: 1999, 2000, 2002 Aladdin Enterprises
-           2006-2013 Jakob Schroeter <js@camaya.net>
+           2006-2015 Jakob Schroeter <js@camaya.net>
 License: GPL-3.0+ with OpenSSL exception and zlib
 
 Files: debian/*
 Copyright: 2005-2010 Jose Carlos Garcia Sogo <jsogo@debian.org>
-           2014 Vincent Cheng <vcheng@debian.org>
+           2014-2015 Vincent Cheng <vcheng@debian.org>
 License: GPL-3.0+ with OpenSSL exception
 
 License: GPL-3.0+ with OpenSSL exception
