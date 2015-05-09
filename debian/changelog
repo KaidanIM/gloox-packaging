@@ -1,3 +1,9 @@
+gloox (1.0.13-2) unstable; urgency=medium
+
+  * Upload to unstable.
+
+ -- Vincent Cheng <vcheng@debian.org>  Fri, 08 May 2015 20:22:12 -0700
+
 gloox (1.0.13-1) experimental; urgency=medium
 
   * New upstream release.
