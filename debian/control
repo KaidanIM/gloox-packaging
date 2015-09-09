@@ -21,7 +21,7 @@ Section: libdevel
 Architecture: any
 Multi-Arch: same
 Depends:
- libgloox13v5 (= ${binary:Version}),
+ libgloox14 (= ${binary:Version}),
  libgnutls28-dev,
  libidn11-dev,
  ${misc:Depends}
@@ -35,13 +35,11 @@ Description: C++ jabber/xmpp library (devel)
  .
  This package contains files needed for development with this library.
 
-Package: libgloox13v5
+Package: libgloox14
 Architecture: any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Replaces: libgloox13
-Conflicts: libgloox13
 Description: C++ jabber/xmpp library
  A C++ Jabber/XMPP library that takes care of low level protocol stuff.
  Additionally, it offers high level interfaces for interaction with an
