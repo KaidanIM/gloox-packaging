@@ -1,10 +1,10 @@
-gloox (1.0.14-1) UNRELEASED; urgency=medium
+gloox (1.0.15-1) experimental; urgency=medium
 
   * Upload to experimental.
   * New upstream release.
   * SONAME bump, update package name (libgloox13 -> libgloox14).
 
- -- Vincent Cheng <vcheng@debian.org>  Tue, 08 Sep 2015 22:57:07 -0700
+ -- Vincent Cheng <vcheng@debian.org>  Mon, 25 Apr 2016 20:10:40 -0700
 
 gloox (1.0.13-3) unstable; urgency=medium
 
