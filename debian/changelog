@@ -3,6 +3,7 @@ gloox (1.0.15-1) experimental; urgency=medium
   * Upload to experimental.
   * New upstream release.
   * SONAME bump, update package name (libgloox13 -> libgloox14).
+  * Update Standards version to 3.9.8.
 
  -- Vincent Cheng <vcheng@debian.org>  Mon, 25 Apr 2016 20:10:40 -0700
 
