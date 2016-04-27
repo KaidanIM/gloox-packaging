@@ -1,3 +1,9 @@
+gloox (1.0.15-2) unstable; urgency=medium
+
+  * Upload to unstable.
+
+ -- Vincent Cheng <vcheng@debian.org>  Wed, 27 Apr 2016 01:20:16 -0700
+
 gloox (1.0.15-1) experimental; urgency=medium
 
   * Upload to experimental.
