@@ -3,15 +3,14 @@ Section: libs
 Priority: optional
 Maintainer: Vincent Cheng <vcheng@debian.org>
 Build-Depends:
- debhelper (>= 9),
- dh-autoreconf,
+ debhelper (>= 11),
  doxygen,
  graphviz,
  gsfonts,
  libgnutls28-dev,
  libidn11-dev,
  zlib1g-dev
-Standards-Version: 3.9.8
+Standards-Version: 4.1.3
 Homepage: http://camaya.net/gloox/
 Vcs-Svn: svn://anonscm.debian.org/collab-maint/deb-maint/gloox/trunk
 Vcs-Browser: https://anonscm.debian.org/viewvc/collab-maint/deb-maint/gloox/trunk
@@ -48,24 +47,8 @@ Description: C++ jabber/xmpp library
  It is a fully compliant XMPP Core and supports various JEPs, mainly
  those needed to implement a XMPP IM client.
 
-Package: libgloox-dbg
-Priority: extra
-Section: debug
-Architecture: any
-Multi-Arch: same
-Depends: libgloox-dev (= ${binary:Version}), ${misc:Depends}
-Description: C++ jabber/xmpp library (debug symbols)
- A C++ Jabber/XMPP library that takes care of low level protocol stuff.
- Additionally, it offers high level interfaces for interaction with an
- XMPP server.
- .
- It is a fully compliant XMPP Core and supports various JEPs, mainly
- those needed to implement a XMPP IM client.
- .
- This package contains symbols for debugging programs using this library.
-
 Package: libgloox-doc
-Priority: extra
+Priority: optional
 Section: doc
 Architecture: all
 Depends: ${misc:Depends}
